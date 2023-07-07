@@ -1,12 +1,11 @@
 <template>
   <v-main>
     <v-container>
+      <h1 class="title mb-5">Проекты, над которыми я работала</h1>
+
       <v-row>
         <Project v-for="project in projects" :project="project" />
       </v-row>
-      <v-btn class="tasks-btn">
-        <router-link to="/tasks">Todo</router-link>
-      </v-btn>
     </v-container>
   </v-main>
 </template>
