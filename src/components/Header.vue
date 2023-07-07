@@ -1,19 +1,18 @@
 <template>
     <div>
-      <v-container fluid>
       <v-app-bar 
       scroll-threshold="0"
       color="rgb(80 43 171)"
       >
+			
         <v-spacer></v-spacer>
         <v-btn outlined class="main-btn">
-          <router-link to="/">Главная</router-link> 
+          <router-link to="/">Резюме</router-link> 
         </v-btn>
-        <v-btn class="tasks-btn ml-3">
-          <router-link to="/tasks">Задачи</router-link>
+				        <v-btn class="portfolio-btn ml-3">
+          <router-link to="/portfolio">Портфолио</router-link>
         </v-btn>
       </v-app-bar>
-    </v-container>
     <router-view/>
     </div>
 </template>
@@ -26,7 +25,7 @@ export default {
 
 <style scoped lang="scss">
   .v-btn {
-    &.tasks-btn {
+    &.portfolio-btn {
       background-color: #e9cfff;
       
       a {

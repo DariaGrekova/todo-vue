@@ -1,5 +1,7 @@
 <template>
-  <h1>Главная страница</h1>
+<div class="">
+  <h1>Резюме</h1>
+</div>
 </template>
 
 <script>
